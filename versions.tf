@@ -1,8 +1,7 @@
 terraform {
   required_providers {
-    aci = {
-      source = "CiscoDevNet/aci"
+    dcnm = {
+      source = "CiscoDevNet/dcnm"
     }
   }
-  required_version = ">= 0.13"
 }
